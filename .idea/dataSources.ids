@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - ebueeplatform@172.20.20.232" uuid="689d162f-d3c3-45d4-be21-48a73223e3dc">
+    <database-info product="MySQL" version="5.7.13-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+      <schema id="1" name="ebueeplatform">
+        <visible>1</visible>
+      </schema>
+      <schema id="2" name="board"/>
+      <schema id="3" name="boarddb"/>
+      <schema id="4" name="customer"/>
+      <schema id="5" name="event"/>
+      <schema id="6" name="example01"/>
+      <schema id="7" name="information_schema"/>
+      <schema id="8" name="kj_meal_mall"/>
+      <schema id="9" name="mldn"/>
+      <schema id="10" name="mybatis"/>
+      <schema id="11" name="mysql"/>
+      <schema id="12" name="performance_schema"/>
+      <schema id="13" name="point_shop"/>
+      <schema id="14" name="sakila"/>
+      <schema id="15" name="shiro"/>
+      <schema id="16" name="sys"/>
+      <schema id="17" name="world"/>
+      <table id="18" parent="1" name="t_user">
+        <comment>用户登录表</comment>
+      </table>
+      <column id="19" parent="18" name="id">
+        <mandatory>1</mandatory>
+        <data-type>bigint(11)|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="20" parent="18" name="user_name">
+        <comment>用户名</comment>
+        <data-type>varchar(255)|0</data-type>
+      </column>
+      <column id="21" parent="18" name="user_phone">
+        <comment>手机号</comment>
+        <data-type>varchar(20)|0</data-type>
+      </column>
+      <column id="22" parent="18" name="user_email">
+        <comment>邮箱地址</comment>
+        <data-type>varchar(255)|0</data-type>
+      </column>
+      <column id="23" parent="18" name="user_pwd">
+        <comment>加盐后用户密码</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="24" parent="18" name="pwd_salt">
+        <comment>MD5盐</comment>
+        <data-type>varchar(6)|0</data-type>
+      </column>
+      <column id="25" parent="18" name="create_time">
+        <comment>创建时间</comment>
+        <data-type>datetime|0</data-type>
+      </column>
+      <column id="26" parent="18" name="modify_time">
+        <comment>最后修改时间</comment>
+        <data-type>datetime|0</data-type>
+      </column>
+      <column id="27" parent="18" name="is_delete">
+        <comment>是否删除，0-未删除；1-已删除</comment>
+        <data-type>tinyint(4)|0</data-type>
+      </column>
+      <key id="28" parent="18" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+    </database-model>
+  </data-source>
+</component>

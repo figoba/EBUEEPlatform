@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="EBUEEPlatform:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="EBUEEPlatform.war">
+      <element id="artifact" artifact-name="EBUEEPlatform:war exploded" />
+    </root>
+  </artifact>
+</component>

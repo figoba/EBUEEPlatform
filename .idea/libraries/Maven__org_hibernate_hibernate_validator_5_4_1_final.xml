@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.hibernate:hibernate-validator:5.4.1.final">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-validator/5.4.1.final/hibernate-validator-5.4.1.final.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-validator/5.4.1.final/hibernate-validator-5.4.1.final-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-validator/5.4.1.final/hibernate-validator-5.4.1.final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
